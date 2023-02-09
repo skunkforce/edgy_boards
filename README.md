@@ -14,9 +14,9 @@ This repository contains the deign requirements which a basic block must fulfill
 
 
 ## quality checklist
-1. schemetic is organized such that only the edgy connectors and possible decoupling caps are in the toplevel sheet and everything that could be reused is in its own subsheet (potentially with more subsheets). This will help your users only include the subsheet when composing edgys for a larger design. 
+1. schemetic is organized such that only the edgy connectors and possible decoupling caps, jumpers etc. are in the toplevel sheet and everything that could be reused is in its own subsheet (potentially with more subsheets). This will help your users only include the subsheet when composing edgys for a larger design. 
 2. put_on_edge is included as a submodule and referenced locally
-3. All symbols, footprints and 3d models are contained and referenced in the repository in a library named the same as the board (e.g. osf.b013.pretty and osf.b013.kicad_lib). This will prevent clashes when composing multiple boards using submodules.
+3. All symbols, footprints and 3d models are contained and referenced in the repository in a library named the same as the board (e.g. osf.b013.pretty and osf.b013.kicad_lib). All paths in symbol and footprint libraries are relative paths. This will prevent clashes when composing multiple boards using submodules.
 4. Boards should be made up of 16mm high x 24mm wide units subtracting 3mm space for the connectors. this means that a board which is 2 units wide and 4 units high would be 2 x 24mm = 48mm - 3mm = 45mm wide and 4 x 16mm = 64mm - 3mm = 61mm high. Most boards are 1 unit in size or 13mm x 21mm. With and height being multiples of the 8mm bump spacing of legos was intentional. 
 5. the kicad style follows our style guide
 6. a TEST.md describing what tests were carried out and their results as well as a README.md which contains a picture and a description.
