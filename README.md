@@ -1,22 +1,27 @@
 # edgy_boards
 Decompose electronic circuits into testable, shareable and reusable basic blocks. That is, in essence, what this project is about. Drasticly reduced cost of PCB manufacturing over the last decade as well as a proper open source EDA toolchain with higherarchical sheet support ([KiCad](https://www.kicad.org/)) have led us to rethink how the electronic circuit design workflow should be organized. The goal is to allow reuse of as many parts of the design as possible such that only the novel pieces require effort.
 
+## motivating example
+![](doc/motivating_example.drawio.png)
+example of a possible composition of single edgy_boards to form a PoE and ethernet capable sensor circuit including a PI4 used to debug it.
+
+## scope of this repository
 This repository contains the deign requirements which a basic block must fulfill to be part of this project as well as organized list of repositories where basic blocks can be found. The set of defined interfaces with which blocks can be connected together can be found [here](https://github.com/skunkforce/things_on_edge).
 
 # Contributing
 ## workflow
-1. make a new repository from the tempolate repository [edgy_board_template](https://github.com/skunkforce/edgy_board_template) either in this organization (if you are a member) or in your own github.
-2. make a pull request to this repo with your board name, description and link added to the README.md with status "initial"
-3. develope, test and order your board. 
+1. make a new repository from the tempolate repository [edgy_board_template](https://github.com/skunkforce/edgy_board_template) either in this organization (if you are a member) or in your own github. Repos in this organization should follow the naming scheme edgy_b081_short_description, there are no naming requirements for external repos. 
+2. make a pull request to this repo with your board name, description and link added to the README.md with status "initial".
+3. develope, test and order your board. Make a tag in your dev branch containing the revision number on your board with 'rc' (release candidate) appended. This should trigger CI to make you all the outputs you need.
 4. make sure you fulfill the quality checklist
-5. make a release of your repository
-6. make a pull request to this repository with the release version number as well as test.md description of tests.
+5. test your board documenting both the tests as well as the results and any useful code etc. needed to reproduce these tests in TEST.md. If your tests fail go to step 3, if they pass make a new release tag without the 'rc'.
+6. make a pull request to this repository with the release version number as well as a link to your TEST.md containing a description of tests.
 
 
 ## quality checklist
 1. schemetic is organized such that only the edgy connectors and possible decoupling caps, jumpers etc. are in the toplevel sheet and everything that could be reused is in its own subsheet (potentially with more subsheets). This will help your users only include the subsheet when composing edgys for a larger design. 
 2. put_on_edge is included as a submodule and referenced locally
-3. All symbols, footprints and 3d models are contained and referenced in the repository in a library named the same as the board (e.g. osf.b013.pretty and osf.b013.kicad_lib). All paths in symbol and footprint libraries are relative paths. This will prevent clashes when composing multiple boards using submodules.
+3. All symbols, footprints and 3d models not provided by the default installation of KiCad are contained and referenced in the repository in a library named the same as the board (e.g. osf.b013.pretty and osf.b013.kicad_lib). All paths in symbol and footprint libraries are relative paths. This will prevent clashes when composing multiple boards using submodules.
 4. Boards should be made up of 16mm high x 24mm wide units subtracting 3mm space for the connectors. this means that a board which is 2 units wide and 4 units high would be 2 x 24mm = 48mm - 3mm = 45mm wide and 4 x 16mm = 64mm - 3mm = 61mm high. Most boards are 1 unit in size or 13mm x 21mm. With and height being multiples of the 8mm bump spacing of legos was intentional. 
 5. the kicad style follows our style guide
 6. a TEST.md describing what tests were carried out and their results as well as a README.md which contains a picture and a description.
@@ -211,6 +216,13 @@ See also **b033** for 3 Watt and **b093** for 7 Watt.
 **b048** I2C 1wire master DS2484R
 
 **Status:** Legacy, review needed.
+
+## RS485
+### transceiver
+**b067** RS485 transceiver featuring MAX485. 
+
+**status** [initial design](https://github.com/skunkforce/b067_RS485_transceiver_MAX485).
+
 
 ## CAN
 **b087** CAN controller with SPI interface featuring MCP2515
