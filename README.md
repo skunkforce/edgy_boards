@@ -5,6 +5,12 @@ Decompose electronic circuits into testable, shareable and reusable basic blocks
 ![](doc/motivating_example.drawio.png)
 example of a possible composition of single edgy_boards to form a PoE and ethernet capable sensor circuit including a PI4 used to debug it.
 
+![](doc/b018.png)
+example of an rp2040 to edge connector breakout board [b018](https://github.com/skunkforce/b018_pi_pico_breakout).  
+
+![](doc/card_edge_connector.png)
+card edge connector used to connect edgy boards together. 
+
 ## scope of this repository
 This repository contains the deign requirements which a basic block must fulfill to be part of this project as well as organized list of repositories where basic blocks can be found. The set of defined interfaces with which blocks can be connected together can be found [here](https://github.com/skunkforce/things_on_edge).
 
@@ -19,7 +25,8 @@ This repository contains the deign requirements which a basic block must fulfill
 
 
 ## quality checklist
-1. schemetic is organized such that only the edgy connectors and possible decoupling caps, jumpers etc. are in the toplevel sheet and everything that could be reused is in its own subsheet (potentially with more subsheets). This will help your users only include the subsheet when composing edgys for a larger design. 
+1. schemetic is organized such that only the edgy connectors and possible decoupling caps, jumpers etc. are in the toplevel sheet and everything that could be reused is in its own subsheet (potentially with more subsheets). This will help your users only include the subsheet when composing edgys for a larger design.
+The schemetic in the template repository has a subsheet named implementation.kicad_sch, please rename this to something more descriptive and something that will not clash with other implementation sheets in other edgies. 
 2. put_on_edge is included as a submodule and referenced locally
 3. All symbols, footprints and 3d models not provided by the default installation of KiCad are contained and referenced in the repository in a library named the same as the board (e.g. osf.b013.pretty and osf.b013.kicad_lib). All paths in symbol and footprint libraries are relative paths. This will prevent clashes when composing multiple boards using submodules.
 4. Boards should be made up of 16mm high x 24mm wide units subtracting 3mm space for the connectors. this means that a board which is 2 units wide and 4 units high would be 2 x 24mm = 48mm - 3mm = 45mm wide and 4 x 16mm = 64mm - 3mm = 61mm high. Most boards are 1 unit in size or 13mm x 21mm. With and height being multiples of the 8mm bump spacing of legos was intentional. 
@@ -31,8 +38,9 @@ This repository contains the deign requirements which a basic block must fulfill
 
 ## edgy composition workflow
 1. add all edgys used in th e composition as submodules
-2. add the subsheets of the respective edgies as higherarchial subsheets in the new design 
-3. subsheets should be named after the edgy board from which they come.
+2. add all the symbol libraries from the respective submodules to the composition project via relative paths.
+3. copy the relevant subsheet files (.kicad_sch) from the submodules to the composisitons project folder.
+4. open each toplevel sheet from each submodule, copy the subsheet from within the schemetic editor and past it into the composition schemetic. Since you copied the subsheet files in step 3 KiCad should automaticly find the correct files and link them.
 
 # Edgy Boards
 ## Ethernet
