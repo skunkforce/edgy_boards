@@ -3,20 +3,24 @@ Decompose electronic circuits into testable, shareable and reusable basic blocks
 
 ## motivating example
 ![](doc/motivating_example.drawio.png)
+
 example of a possible composition of single edgy_boards to form a PoE and ethernet capable sensor circuit including a PI4 used to debug it.
 
 ![](doc/b018.png)
+
 example of an rp2040 to edge connector breakout board [b018](https://github.com/skunkforce/b018_pi_pico_breakout).  
 
 ![](doc/card_edge_connector.png)
+
 card edge connector used to connect edgy boards together. 
 
+
 ## scope of this repository
-This repository contains the deign requirements which a basic block must fulfill to be part of this project as well as organized list of repositories where basic blocks can be found. The set of defined interfaces with which blocks can be connected together can be found [here](https://github.com/skunkforce/things_on_edge).
+This repository contains the deign requirements which an edgy board must fulfill to be part of this project as well as organized list of repositories where edgy boards can be found. The set of defined interfaces with which edgy boards can be connected together can be found [here](https://github.com/skunkforce/things_on_edge).
 
 # Contributing
 ## workflow
-1. make a new repository from the tempolate repository [edgy_board_template](https://github.com/skunkforce/edgy_board_template) either in this organization (if you are a member) or in your own github. Repos in this organization should follow the naming scheme edgy_b081_short_description, there are no naming requirements for external repos. 
+1. make a new repository from the tempolate repository [edgy_board_template](https://github.com/skunkforce/edgy_board_template) either in this organization (if you are a member) or in your own github. Repos in this organization should follow the naming scheme b081_short_description, there are no naming requirements for external repos. 
 2. make a pull request to this repo with your board name, description and link added to the README.md with status "initial".
 3. develope, test and order your board. Make a tag in your dev branch containing the revision number on your board with 'rc' (release candidate) appended. This should trigger CI to make you all the outputs you need.
 4. make sure you fulfill the quality checklist
