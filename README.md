@@ -100,6 +100,10 @@ The schemetic in the template repository has a subsheet named implementation.kic
 
 **Status:** Legacy, ordered.
 
+**b099** 100BASE-T magnetics using 749013011A
+
+**Status:** [v0.1 initial](https://github.com/skunkforce/b099_100BASE-T_magnetics_749013011A)
+
 ### Phys
 **b007** 100Mbit PHY featuring LAN8742A
 
@@ -128,6 +132,8 @@ The schemetic in the template repository has a subsheet named implementation.kic
 **b078** 100Mbit MAC + PHY with SPI interface W5500
 
 **Status:** Legacy, [tested](https://github.com/skunkforce/edgy_boards_legacy/b078_Ethernet_MAC+PHY_WIZ5500/README.md).
+
+[modernization](https://github.com/skunkforce/b078_Ethernet_MAC-PHY_WIZ5500), [untested](https://github.com/skunkforce/b078_Ethernet_MAC-PHY_WIZ5500/README.md)
 
 ### Bridges
 **b016** 100Mbit usb to ethernet bridge.
