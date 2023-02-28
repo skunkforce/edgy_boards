@@ -34,15 +34,19 @@
 ### standard SOM connector layout
 
 ## Pinconnectors
-**b003** generic jumper pins on a pass through connector.
+**b001** [stub connector](https://github.com/skunkforce/b001_stub_connector).
 
 **status** tested.
 
-**b005** generic pin sockets on a pass through connector.
+**b003** [generic jumper pins on a pass through connector](https://github.com/skunkforce/b003_jumpers).
 
 **status** tested.
 
-**b014** ADC to SMA
+**b005** [10pin 2.5mm on a pass through connector](https://github.com/skunkforce/b005_pass_through_10_pin_2.54mm).
+
+**status** tested.
+
+**b014** [analog to SMA](https://github.com/skunkforce/b014_analog_to_SMA).
 
 **status:** tested. 
 
