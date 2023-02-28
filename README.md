@@ -49,4 +49,5 @@ The schemetic in the template repository has a subsheet named implementation.kic
 # Edgy Boards
 
 [completed and tested edgy boards](Tested.md)
+
 [in progress edgy boards](in_progress.md)
