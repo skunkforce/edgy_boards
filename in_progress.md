@@ -88,7 +88,7 @@
 
 **b078** 100Mbit MAC + PHY with SPI interface W5500
 
-**Status:** Legacy, [tested](https://github.com/skunkforce/edgy_boards_legacy/b078_Ethernet_MAC+PHY_WIZ5500/README.md).
+**Status:** [ordered](https://github.com/skunkforce/b078_Ethernet_MAC-PHY_WIZ5500/releases/tag/v1.0rc).
 
 ### Bridges
 **b016** 100Mbit usb to ethernet bridge.
