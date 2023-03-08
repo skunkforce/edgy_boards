@@ -20,15 +20,15 @@
 ### Connectors
 **b004** 100BASE-T connector featuring a Würth 7499211121A RJ45 connector with builtin magnetics and PoE rectifier.
 
-**Status:** Legacy, tested. 
+**Status:** [ordered](https://github.com/skunkforce/b004_ethernet_to_019_100BASE-T_and_rectified_PoE/releases/tag/v1.0rc). 
 
 **b010** 1000BASE-T connector featuring a Würth 615008145521 RJ45 connector.
 
-**Status:** Legacy, potential problem with 009 pinning.
+**Status:** [ordered](https://github.com/skunkforce/b010_ethernet_009_to_RJ45_615008145521/releases/tag/v1.0rc).
 
 **b038** 1000BASE-T connector featuring Würth 7499111121A RJ45 connector.
 
-**Status:** Legacy, review needed.
+**Status:** [ordered](https://github.com/skunkforce/b038_gigabit_RJ45_7499111121A/releases/tag/v1.0rc)
 
 **b039** gigabit SGMII cage.
 
@@ -36,14 +36,19 @@
 
 **b086** 1000BASE-T connector featuring A70-112-331N126 PoE capable Magjack.
 
-**Status:** Legacy, ordered.
+**Status:** [ordered](https://github.com/skunkforce/b086_magjack_1000BASE-T_PoE-_A70-112-331N126/releases/tag/v1.0rc)
 
-**b095** osf.009 100BASE-T M12 connector with PoE capable 749013011A magnetics.
+**b095** osf.009 100BASE-T M12 connector.
 
-**Status:** Legacy, ordered.
+**Status:** [ordered](https://github.com/skunkforce/b095_100BASE-T_M12/releases/tag/v1.0rc)
 
 
 ### Magnetics
+
+**b099** 100BASE-T magnetics featuring 749013011A
+
+**status** [ordered](https://github.com/skunkforce/b099_100BASE-T_magnetics_749013011A/releases/tag/v1.0rc)
+
 **b009** 1000BASE-T magnetics in phy to device configuration featuring WE7490220122.
 
 **Status:** Legacy, potential problem with 009 pinning.
@@ -53,6 +58,10 @@
 **Status:** Legacy, ordered.
 
 ### Phys
+**b108** 1Gbit PHY featuring ADIN1300
+
+**status** in development.
+
 **b007** 100Mbit PHY featuring LAN8742A
 
 **Status:** Legacy, tested with b004.
@@ -93,7 +102,7 @@
 
 **b012** PoE Rectifier using MB10FTR
 
-**status:** Legacy, ordered, not tested.
+**status:** [ordered](https://github.com/skunkforce/b012_PoE_rectifier_MB10FTR/releases/tag/v1.0rc)
 
 **b027** PoE++ PD using LT4275
 
@@ -205,7 +214,7 @@ See also **b033** for 3 Watt and **b093** for 7 Watt.
 
 
 ## Regulator
-### Switching
+### Switching step-down
 **b063** Isolated 5v-5v DCDC.
 
 **Status:** Legacy, ordered.
@@ -231,11 +240,25 @@ Output current 300ma
 
 **Status:** Legacy, ordered.
 
+### switching step-up
+**b100** battery cell DCDC step up featuring TLV61220
+
+**status:** [ordered](https://github.com/skunkforce/b100_dcdc-step-up-TLV61220/releases/tag/v0.1rc).
+
+**b102** battery cell DCDC step up featuring TPS61021A
+
+**status:** [ordered](https://github.com/skunkforce/b102_dcdc_stepup_TPS61021A/releases/tag/v0.1rc).
+
 ### LDO
 **b002** features a TCR2EF33 producing 3.3V output from a 5 volt input. 
 Output current 200ma.
 
 **Status:** Legacy, tested
+
+**b103** features a TLV743P producing 3.3V output from a 5 volt input. 
+Output current 300ma.
+
+**status:** [ordered](https://github.com/skunkforce/b102_dcdc_stepup_TPS61021A/releases/tag/v0.1rc)
 
 ## Microcontroller
 **b018** breakout of the RP2040 including flash memory.
@@ -377,6 +400,17 @@ DebugEdge
 
 **Status:** Legacy, initial.
 
+## battery management
+### holders
+**b104** 2 cell AA battery holder
+
+**status:** [ordered](https://github.com/skunkforce/b104_2cellAA_battery_holder/releases/tag/v1.0rc)
+
+### chargers
+**b105** 2 cell NiMh charger featuring DS2711E
+
+**status:** [ordered](https://github.com/skunkforce/b105_2cell_charger_NiMh_DS2711E/releases/tag/v0.1rc)
+
 ## Sensors
 ### angle
 
@@ -399,6 +433,14 @@ DebugEdge
 **status:** Legacy, initial.
 
 ### temperature
+
+**b106** SPI thermocouple featuring MAX31855
+
+**status:** [ordered](https://github.com/skunkforce/b106_SPI_thermocouple_MAX31855/releases/tag/v1.0rc)
+
+**b101** I2C temperature sensor
+
+**status:** [ordered](https://github.com/skunkforce/b101_I2C_temperature_sensor_MCP9844/releases/tag/v1.0rc)
 
 **b083** 4x PT100 to I2C using MCP3428.
 
@@ -429,3 +471,4 @@ DebugEdge
 **b074** resistive power supply tester
 
 **Status:** Legacy, initial.
+
