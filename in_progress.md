@@ -241,9 +241,6 @@ Output current 300ma
 **Status:** Legacy, ordered.
 
 ### switching step-up
-**b100** battery cell DCDC step up featuring TLV61220
-
-**status:** [ordered](https://github.com/skunkforce/b100_dcdc-step-up-TLV61220/releases/tag/v0.1rc).
 
 **b102** battery cell DCDC step up featuring TPS61021A
 

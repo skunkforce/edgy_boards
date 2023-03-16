@@ -25,6 +25,12 @@
 
 ## Regulator
 ### Switching
+### Switching step-down
+
+### switching step-up
+**b100** battery cell DCDC step up featuring TLV61220
+
+**status:** [v0.1](https://github.com/skunkforce/b100_dcdc-step-up-TLV61220/releases/tag/v0.1) [tested](https://github.com/skunkforce/b100_dcdc-step-up-TLV61220/blob/master/TESTS.md)
 
 ### LDO
 
