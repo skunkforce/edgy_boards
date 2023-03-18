@@ -433,7 +433,7 @@ DebugEdge
 
 **b106** SPI thermocouple featuring MAX31855
 
-**status:** [ordered](https://github.com/skunkforce/b106_SPI_thermocouple_MAX31855/releases/tag/v1.0rc)
+**status:** [v1.0 not ordered](https://github.com/skunkforce/b106_SPI_thermocouple_MAX31855/releases/tag/v1.0rc)
 
 **b101** I2C temperature sensor
 
