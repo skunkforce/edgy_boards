@@ -1,5 +1,5 @@
 # edgy_boards
-Decompose electronic circuits into testable, shareable and reusable basic blocks. That is, in essence, what this project is about. Drasticly reduced cost of PCB manufacturing over the last decade as well as a proper open source EDA toolchain with higherarchical sheet support ([KiCad](https://www.kicad.org/)) have led us to rethink how the electronic circuit design workflow should be organized. The goal is to allow reuse of as many parts of the design as possible such that only the novel pieces require effort.
+Decompose electronic circuits into testable, shareable and reusable basic blocks. That is, in essence, what this project is about. Software has library code from which one can easily import generic code written by others, this is an attempt at providing that but for circuits. Drasticly reduced cost of PCB manufacturing over the last decade as well as a proper open source EDA toolchain with higherarchical sheet support ([KiCad](https://www.kicad.org/)) have led us to rethink how the electronic circuit design workflow should be organized. The goal is to allow reuse of as many parts of the design as possible such that only the novel pieces require effort.
 
 ## motivating example
 ![](doc/motivating_example.drawio.png)
