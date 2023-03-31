@@ -59,7 +59,7 @@
 ## ADC
 **b084** [ADS131M03 3X differential SPI ADC 32kSPS](https://github.com/skunkforce/b084_3x_diff_ADC_ADS131M03)
 
-**status:** [v1.1](https://github.com/skunkforce/b084_3x_diff_ADC_ADS131M03/releases/tag/v1.1rc) tested
+**status:** [v1.1](https://github.com/skunkforce/b084_3x_diff_ADC_ADS131M03/releases/tag/v1.1rc) [tested](https://github.com/skunkforce/b084_3x_diff_ADC_ADS131M03/blob/master/TESTS.md)
 
 ## DAC
 
