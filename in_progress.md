@@ -65,6 +65,10 @@
 
 **Status:** Legacy, ordered.
 
+**b116** 1000BASE-T using PT61020
+
+**status** [ordered](https://github.com/skunkforce/b116_1000BASE-T_magnetics_PT61020/releases/tag/v1.0rc)
+
 ### Phys
 **b108** 1Gbit PHY featuring ADIN1300
 
@@ -105,7 +109,7 @@
 ### Bridges
 **b016** 100Mbit usb to ethernet bridge.
 
-**Status:** Legacy, ordered.
+**Status:** [ordered](https://github.com/skunkforce/b016_008_USB_to_009_ethernet_LAN9500A/releases/tag/v1.0)
 
 ### PoE
 **b011** PoE++ Rectifier using LT4321
@@ -132,16 +136,16 @@ See also **b093** for 7 Watt and **b075** for 13 Watt.
 **b093** PoE PD with 7 Watt flyback DCDC using MP8007 and POE70P50. 
 See also **b033** for 3 Watt and **b075** for 13 Watt.
 
-**Status:** Legacy, ordered.
+**Status:** [ordered](https://github.com/skunkforce/b093_PoE_PD_DCDC_isolated_flyback_MP8007/releases/tag/v1.0rc)
 
 **b075** PoE PD with 13 Watt flyback DCDC using MP8007 and POE13P50. 
 See also **b033** for 3 Watt and **b093** for 7 Watt.
 
-**Status:** Legacy, initial.
+**Status:** [ordered](https://github.com/skunkforce/b075_PoE_PD_DCDC_5V_13W_isolated_flyback_MP8007/releases/tag/v1.0rc)
 
 **b052** PoE PD with buck DCDC using MP8007
 
-**Status:** Legacy, ordered.
+**Status:** [ordered](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/releases/tag/v1.0rc).
 
 **b076** PoE PD with flyback DCDC using SI3404
 
@@ -150,6 +154,10 @@ See also **b033** for 3 Watt and **b093** for 7 Watt.
 **b077** PoE PD buck DCDC using SI3404
 
 **Status:** Legacy, incapable of large loads, being investigated.
+
+**b115** 4x PoE PSE 13W using TPS23861
+
+**status** [ordered](https://github.com/skunkforce/b115_4x_PoE_PSE_13W_TPS23861/releases/tag/v1.0rc)
 
 
 ## USB
@@ -183,7 +191,7 @@ See also **b033** for 3 Watt and **b093** for 7 Watt.
 
 **b051** USB C connector
 
-**Status:** Legacy, tested.
+**Status:** [ordered](https://github.com/skunkforce/b051_008_to_USB_C_USB4105-GF-A/releases/tag/v1.0rc)
 
 **b120** USB to USB-A connector.
 
@@ -255,6 +263,14 @@ Output current 300ma
 **b085** 4.2V - 18V input 2A buck converter AP6220
 
 **Status:** Legacy, ordered.
+
+**b114** 12V-76V to 3.3V 3A using BD9G341
+
+**status** [ordered](https://github.com/skunkforce/b114_dcdc_step_down_12V-76V_in_3.3V_3A_out_BD9G341/releases/tag/v1.0rc)
+
+**b113** 4.5V - 40V to 3.3V 600ma buck using AP64060
+
+**status** [ordered](https://github.com/skunkforce/b113_4.5v-40v_600ma_buck_converter_AP64060/releases/tag/v1.0rc)
 
 ### switching step-up
 
@@ -343,6 +359,10 @@ DebugEdge
 
 **Status:** Legacy, waiting for tests of b049.
 
+**b107** VAR-SOM breakout
+
+**status** [ordered](https://github.com/skunkforce/b107_VAR-SOM_breakout/releases/tag/v0.2rc)
+
 ## Pinconnectors
 
 ## ADC
@@ -360,15 +380,19 @@ DebugEdge
 
 **b056** ADS131M08 8X differential SPI ADC 32kSPS
 
-**status:** Legacy, ordered.
+**status:** [ordered](https://github.com/skunkforce/b056_8x_diff_SPI_ADC_ADS131M08/releases/tag/v1.0rc)
 
 **b081** MCP3428 4X 16 bit differential I2C ADC with PGA 15SPS
 
-**status:** Legacy, ordered.
+**status:** [ordered](https://github.com/skunkforce/b081_I2C_4x_diff_ADC_MCP3428/releases/tag/v1.0rc)
 
 **b091** ADS131A04 4X differential SPI ADC 128kSPS
 
 **status:** Legacy, initial.
+
+**b110** 4x MUX PGA ADC using ADS1120
+
+**status** [ordered](https://github.com/skunkforce/b110_4x_mux_pga_adc_ADS1120/releases/tag/v1.0rc)
 
 ## DAC
 **b024** 4x DAC with I2C interface using MCP4728.
@@ -418,6 +442,10 @@ DebugEdge
 **b104** 2 cell AA battery holder
 
 **status:** [ordered](https://github.com/skunkforce/b104_2cellAA_battery_holder/releases/tag/v1.0rc)
+
+**b117** 2 cell AAA battery holder
+
+**status** [in development](https://github.com/skunkforce/b117_2cellAAA_battery_holder)
 
 ### chargers
 **b105** 2 cell NiMh charger featuring DS2711E
@@ -472,6 +500,10 @@ DebugEdge
 
 **status** [ordered](https://github.com/skunkforce/b112_16x1_analog_mux_ADG706/releases/tag/v1.0rc2)
 
+**b109** 8x2 analog MUX using ADG707
+
+**status** [ordered](https://github.com/skunkforce/b109_8x2_analog_mux_ADG707/releases/tag/v1.0rc)
+
 ## Other
 **b058** RTC MCP79410
 
@@ -488,4 +520,8 @@ DebugEdge
 **b074** resistive power supply tester
 
 **Status:** Legacy, initial.
+
+**b111** ck etoggle right angle switch E103MD1ABE
+
+**status** [ordered](https://github.com/skunkforce/b111_ck_etoggle_right_angle_switch_E103MD1ABE/releases/tag/v1.0rc)
 
