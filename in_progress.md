@@ -17,6 +17,14 @@
 
 **Status:** Legacy, initial.
 
+**b119** 8 port 100Mbit switch using RTL8309N
+
+**status** [ordered](https://github.com/skunkforce/b119_8_port_100BASE-T_switch_RTL8309N/releases/tag/v1.0rc)
+
+**b118** 5 port 100Mbit switch using TRL8305N
+
+**status** [ordered](https://github.com/skunkforce/b118_5_port_100BASE-T_switch_RTL8305N/releases/tag/v1.0rc)
+
 ### Connectors
 **b004** 100BASE-T connector featuring a Würth 7499211121A RJ45 connector with builtin magnetics and PoE rectifier.
 
@@ -89,6 +97,10 @@
 **b078** 100Mbit MAC + PHY with SPI interface W5500
 
 **Status:** [ordered](https://github.com/skunkforce/b078_Ethernet_MAC-PHY_WIZ5500/releases/tag/v1.0rc).
+
+**b108** gigabit PHY using ADIN1300BCPZ
+
+**status** [ordered](https://github.com/skunkforce/b108_gigabit_PHY_RGMII_ADIN1300BCPZ/releases/tag/v0.1rc)
 
 ### Bridges
 **b016** 100Mbit usb to ethernet bridge.
@@ -173,6 +185,10 @@ See also **b033** for 3 Watt and **b093** for 7 Watt.
 
 **Status:** Legacy, tested.
 
+**b120** USB to USB-A connector.
+
+**status** [ordered](https://github.com/skunkforce/b120_008_USB_to_USB-A_GSB12121/releases/tag/v1.0rc)
+
 ## 1-wire
 **b043** 1wire to I2C bridge using DS28E18
 
@@ -247,15 +263,19 @@ Output current 300ma
 **status:** [ordered](https://github.com/skunkforce/b102_dcdc_stepup_TPS61021A/releases/tag/v0.1rc).
 
 ### LDO
-**b002** features a TCR2EF33 producing 3.3V output from a 5 volt input. 
+**b002** features a TC1017 producing 3.3V output from a 5 volt input. 
 Output current 200ma.
 
-**Status:** Legacy, tested
+**Status:** [ordered](https://github.com/skunkforce/b002_5v_to_3.3v_LDO_TC1017/releases/tag/v1.0rc)
 
 **b103** features a TLV743P producing 3.3V output from a 5 volt input. 
 Output current 300ma.
 
-**status:** [ordered](https://github.com/skunkforce/b102_dcdc_stepup_TPS61021A/releases/tag/v0.1rc)
+**status:** [ordered](https://github.com/skunkforce/b103_5v_to_3.3v_300mA_LDO_TLV743P/releases/tag/v1.0rc)
+
+**b121** 5V to 3.3V 2A LDO featuring LD39200PU.
+
+**status** [Ordered](https://github.com/skunkforce/b121_5v_to_3.3v_2A_LDO_LD39200PU/releases/tag/v1.0rc)
 
 ## Microcontroller
 **b018** breakout of the RP2040 including flash memory.
@@ -343,10 +363,6 @@ DebugEdge
 **status:** Legacy, ordered.
 
 **b081** MCP3428 4X 16 bit differential I2C ADC with PGA 15SPS
-
-**status:** Legacy, ordered.
-
-**b084** ADS131M03 3X differential SPI ADC 32kSPS
 
 **status:** Legacy, ordered.
 
@@ -451,6 +467,10 @@ DebugEdge
 **b050** analog preamp using LMV601
 
 **Status:** Legacy, review needed.
+
+**b112** 16x1 analog MUX using ADG706
+
+**status** [ordered](https://github.com/skunkforce/b112_16x1_analog_mux_ADG706/releases/tag/v1.0rc2)
 
 ## Other
 **b058** RTC MCP79410
