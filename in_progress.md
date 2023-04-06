@@ -143,10 +143,6 @@ See also **b033** for 3 Watt and **b093** for 7 Watt.
 
 **Status:** [ordered](https://github.com/skunkforce/b075_PoE_PD_DCDC_5V_13W_isolated_flyback_MP8007/releases/tag/v1.0rc)
 
-**b052** PoE PD with buck DCDC using MP8007
-
-**Status:** [ordered](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/releases/tag/v1.0rc).
-
 **b076** PoE PD with flyback DCDC using SI3404
 
 **Status:** Legacy, ordered.
@@ -283,11 +279,6 @@ Output current 300ma
 Output current 200ma.
 
 **Status:** [ordered](https://github.com/skunkforce/b002_5v_to_3.3v_LDO_TC1017/releases/tag/v1.0rc)
-
-**b103** features a TLV743P producing 3.3V output from a 5 volt input. 
-Output current 300ma.
-
-**status:** [ordered](https://github.com/skunkforce/b103_5v_to_3.3v_300mA_LDO_TLV743P/releases/tag/v1.0rc)
 
 **b121** 5V to 3.3V 2A LDO featuring LD39200PU.
 
