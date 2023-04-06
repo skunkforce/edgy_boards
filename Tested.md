@@ -12,6 +12,10 @@
 
 ### PoE
 
+**b052** PoE PD with buck DCDC using MP8007
+
+**Status:** [v1.0](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/blob/master/TESTS.md)
+
 ## USB
 
 ## 1-wire
@@ -33,6 +37,11 @@
 **status:** [v0.1](https://github.com/skunkforce/b100_dcdc-step-up-TLV61220/releases/tag/v0.1) [tested](https://github.com/skunkforce/b100_dcdc-step-up-TLV61220/blob/master/TESTS.md)
 
 ### LDO
+
+**b103** features a TLV743P producing 3.3V output from a 5 volt input. 
+Output current 300ma.
+
+**status:** [v1.0](https://github.com/skunkforce/b103_5v_to_3.3v_300mA_LDO_TLV743P/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b103_5v_to_3.3v_300mA_LDO_TLV743P/blob/master/TESTS.md)
 
 ## Microcontroller
 
