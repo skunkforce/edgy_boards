@@ -9,6 +9,7 @@
 ### Phys
 
 ### Bridges
+
 **b016** 100Mbit usb to ethernet bridge.
 
 **Status:** [v1.0](https://github.com/skunkforce/b016_008_USB_to_009_ethernet_LAN9500A/releases/tag/v1.0) [tested](https://github.com/skunkforce/b016_008_USB_to_009_ethernet_LAN9500A/blob/master/TESTS.md)
@@ -20,6 +21,10 @@
 **Status:** [v1.0](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/blob/master/TESTS.md)
 
 ## USB
+
+**b051** USB C connector
+
+**Status:** [v1.0](https://github.com/skunkforce/b051_008_to_USB_C_USB4105-GF-A/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b051_008_to_USB_C_USB4105-GF-A/blob/master/TESTS.md)
 
 ## 1-wire
 
