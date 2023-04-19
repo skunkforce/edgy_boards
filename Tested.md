@@ -9,6 +9,9 @@
 ### Phys
 
 ### Bridges
+**b016** 100Mbit usb to ethernet bridge.
+
+**Status:** [v1.0](https://github.com/skunkforce/b016_008_USB_to_009_ethernet_LAN9500A/releases/tag/v1.0) [tested](https://github.com/skunkforce/b016_008_USB_to_009_ethernet_LAN9500A/blob/master/TESTS.md)
 
 ### PoE
 
