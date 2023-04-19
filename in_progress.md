@@ -41,10 +41,6 @@
 
 ### Magnetics
 
-**b099** 100BASE-T magnetics featuring 749013011A
-
-**status** [ordered](https://github.com/skunkforce/b099_100BASE-T_magnetics_749013011A/releases/tag/v1.0rc)
-
 **b009** 1000BASE-T magnetics in phy to device configuration featuring WE7490220122.
 
 **Status:** Legacy, potential problem with 009 pinning.
