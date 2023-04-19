@@ -34,10 +34,6 @@
 
 **Status:** [ordered](https://github.com/skunkforce/b010_ethernet_009_to_RJ45_615008145521/releases/tag/v1.0rc).
 
-**b038** 1000BASE-T connector featuring Würth 7499111121A RJ45 connector.
-
-**Status:** [ordered](https://github.com/skunkforce/b038_gigabit_RJ45_7499111121A/releases/tag/v1.0rc)
-
 **b039** gigabit SGMII cage.
 
 **Status:** Legacy, review needed.
