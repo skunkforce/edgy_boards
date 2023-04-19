@@ -4,6 +4,10 @@
 
 ### Connectors
 
+**b010** 1000BASE-T connector featuring a Würth 615008145521 RJ45 connector.
+
+**Status:** [v1.0](https://github.com/skunkforce/b010_ethernet_009_to_RJ45_615008145521/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b010_ethernet_009_to_RJ45_615008145521/blob/master/TESTS.md)
+
 **b038** 1000BASE-T connector featuring Würth 7499111121A RJ45 connector.
 
 **Status:** [v1.0](https://github.com/skunkforce/b038_gigabit_RJ45_7499111121A/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b038_gigabit_RJ45_7499111121A/blob/master/TESTS.md)
