@@ -18,6 +18,10 @@
 
 ### Magnetics
 
+**b099** 100BASE-T magnetics featuring 749013011A
+
+**status** [v1.0](https://github.com/skunkforce/b099_100BASE-T_magnetics_749013011A/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b099_100BASE-T_magnetics_749013011A/blob/master/TESTS.md)
+
 ### Phys
 
 ### Bridges
