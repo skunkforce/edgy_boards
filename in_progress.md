@@ -28,19 +28,11 @@
 ### Connectors
 **b004** 100BASE-T connector featuring a Würth 7499211121A RJ45 connector with builtin magnetics and PoE rectifier.
 
-**Status:** [ordered](https://github.com/skunkforce/b004_ethernet_to_019_100BASE-T_and_rectified_PoE/releases/tag/v1.0rc). 
-
-**b010** 1000BASE-T connector featuring a Würth 615008145521 RJ45 connector.
-
-**Status:** [ordered](https://github.com/skunkforce/b010_ethernet_009_to_RJ45_615008145521/releases/tag/v1.0rc).
+**Status:** [ordered](https://github.com/skunkforce/b004_ethernet_to_019_100BASE-T_and_rectified_PoE/releases/tag/v1.0rc).
 
 **b039** gigabit SGMII cage.
 
 **Status:** Legacy, review needed.
-
-**b086** 1000BASE-T connector featuring A70-112-331N126 PoE capable Magjack.
-
-**Status:** [ordered](https://github.com/skunkforce/b086_magjack_1000BASE-T_PoE-_A70-112-331N126/releases/tag/v1.0rc)
 
 **b095** osf.009 100BASE-T M12 connector.
 
