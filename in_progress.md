@@ -180,10 +180,6 @@ See also **b033** for 3 Watt and **b093** for 7 Watt.
 
 **Status:** Legacy, ordered.
 
-**b051** USB C connector
-
-**Status:** [ordered](https://github.com/skunkforce/b051_008_to_USB_C_USB4105-GF-A/releases/tag/v1.0rc)
-
 **b120** USB to USB-A connector.
 
 **status** [ordered](https://github.com/skunkforce/b120_008_USB_to_USB-A_GSB12121/releases/tag/v1.0rc)
