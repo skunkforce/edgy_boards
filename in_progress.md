@@ -106,11 +106,6 @@
 
 **status** [ordered](https://github.com/skunkforce/b108_gigabit_PHY_RGMII_ADIN1300BCPZ/releases/tag/v0.1rc)
 
-### Bridges
-**b016** 100Mbit usb to ethernet bridge.
-
-**Status:** [ordered](https://github.com/skunkforce/b016_008_USB_to_009_ethernet_LAN9500A/releases/tag/v1.0)
-
 ### PoE
 **b011** PoE++ Rectifier using LT4321
 
