@@ -4,6 +4,10 @@
 
 ### Connectors
 
+**b038** 1000BASE-T connector featuring Würth 7499111121A RJ45 connector.
+
+**Status:** [v1.0](https://github.com/skunkforce/b038_gigabit_RJ45_7499111121A/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b038_gigabit_RJ45_7499111121A/blob/master/TESTS.md)
+
 ### Magnetics
 
 ### Phys
