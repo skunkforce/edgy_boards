@@ -8,6 +8,10 @@
 
 **Status:** [v1.0](https://github.com/skunkforce/b038_gigabit_RJ45_7499111121A/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b038_gigabit_RJ45_7499111121A/blob/master/TESTS.md)
 
+**b086** 1000BASE-T connector featuring A70-112-331N126 PoE capable Magjack.
+
+**Status:** [v1.0](https://github.com/skunkforce/b086_magjack_1000BASE-T_PoE-_A70-112-331N126/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b086_magjack_1000BASE-T_PoE-_A70-112-331N126/blob/master/TESTS.md)
+
 ### Magnetics
 
 ### Phys
