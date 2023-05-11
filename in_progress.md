@@ -17,14 +17,6 @@
 
 **Status:** Legacy, initial.
 
-**b119** 8 port 100Mbit switch using RTL8309N
-
-**status** [ordered](https://github.com/skunkforce/b119_8_port_100BASE-T_switch_RTL8309N/releases/tag/v1.0rc)
-
-**b118** 5 port 100Mbit switch using TRL8305N
-
-**status** [ordered](https://github.com/skunkforce/b118_5_port_100BASE-T_switch_RTL8305N/releases/tag/v1.0rc)
-
 ### Connectors
 **b004** 100BASE-T connector featuring a Würth 7499211121A RJ45 connector with builtin magnetics and PoE rectifier.
 
