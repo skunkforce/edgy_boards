@@ -18,10 +18,6 @@
 **Status:** Legacy, initial.
 
 ### Connectors
-**b004** 100BASE-T connector featuring a Würth 7499211121A RJ45 connector with builtin magnetics and PoE rectifier.
-
-**Status:** [ordered](https://github.com/skunkforce/b004_ethernet_to_019_100BASE-T_and_rectified_PoE/releases/tag/v1.0rc).
-
 **b039** gigabit SGMII cage.
 
 **Status:** Legacy, review needed.
