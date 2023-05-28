@@ -116,6 +116,9 @@ Output current 300ma.
 ### angle
 
 ### hall effect
+**b129** [3 phase 65A power monitor ACS733KLATR-65AB](https://github.com/skunkforce/b129_65A_hall_effect_ACS733KLATR-65AB)
+
+**status** [v1.0](https://github.com/skunkforce/b129_65A_hall_effect_ACS733KLATR-65AB/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b129_65A_hall_effect_ACS733KLATR-65AB/blob/master/TESTS.md)
 
 ### temperature
 
