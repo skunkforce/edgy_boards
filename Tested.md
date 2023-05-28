@@ -121,6 +121,9 @@ Output current 300ma.
 **status** [v1.0](https://github.com/skunkforce/b129_65A_hall_effect_ACS733KLATR-65AB/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b129_65A_hall_effect_ACS733KLATR-65AB/blob/master/TESTS.md)
 
 ### temperature
+**b101** [I2C temperature sensor MCP9844](https://github.com/skunkforce/b101_I2C_temperature_sensor_MCP9844)
+
+**status:** [v1.0](https://github.com/skunkforce/b101_I2C_temperature_sensor_MCP9844/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b101_I2C_temperature_sensor_MCP9844/blob/master/TESTS.md)
 
 ## Analog
 
