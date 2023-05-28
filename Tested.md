@@ -125,6 +125,11 @@ Output current 300ma.
 
 **status:** [v1.0](https://github.com/skunkforce/b101_I2C_temperature_sensor_MCP9844/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b101_I2C_temperature_sensor_MCP9844/blob/master/TESTS.md)
 
+### pressure
+**b126** [I2C High-performance MEMS nano pressure sensor LPS25HB](https://github.com/skunkforce/b126_High-performance_MEMS_nano_pressure_sensor_LPS25HB)
+
+**status:** [v1.0](https://github.com/skunkforce/b126_High-performance_MEMS_nano_pressure_sensor_LPS25HB/releases/tag/v1.0) [tested](https://github.com/skunkforce/b126_High-performance_MEMS_nano_pressure_sensor_LPS25HB/blob/master/TESTS.md)
+
 ## Analog
 
 ## Other
