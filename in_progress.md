@@ -437,10 +437,6 @@ DebugEdge
 
 **status:** [v1.0 not ordered](https://github.com/skunkforce/b106_SPI_thermocouple_MAX31855/releases/tag/v1.0rc)
 
-**b101** I2C temperature sensor
-
-**status:** [ordered](https://github.com/skunkforce/b101_I2C_temperature_sensor_MCP9844/releases/tag/v1.0rc)
-
 **b083** 4x PT100 to I2C using MCP3428.
 
 **status:** Legacy, ordered.
