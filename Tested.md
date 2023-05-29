@@ -56,7 +56,7 @@ See also **b033** for 3 Watt and **b093** for 7 Watt.
 **b093** [PoE PD with 7 Watt flyback DCDC using MP8007 and POE70P50](https://github.com/skunkforce/b093_PoE_PD_DCDC_isolated_flyback_MP8007). 
 See also **b033** for 3 Watt and **b075** for 13 Watt.
 
-**Status:** [v1.0](https://github.com/skunkforce/b093_PoE_PD_DCDC_isolated_flyback_MP8007/releases/tag/v1.0) [tested](https://github.com/skunkforce/b093_PoE_PD_DCDC_isolated_flyback_MP8007/releases/tag/v1.0)
+**Status:** [v1.0](https://github.com/skunkforce/b093_PoE_PD_DCDC_isolated_flyback_MP8007/releases/tag/v1.0) [tested](https://github.com/skunkforce/b093_PoE_PD_DCDC_isolated_flyback_MP8007/blob/master/TESTS.md)
 
 ## USB
 
