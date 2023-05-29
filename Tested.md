@@ -48,6 +48,11 @@
 
 **Status:** [v1.0](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/blob/master/TESTS.md)
 
+**b075** [PoE PD with 13 Watt flyback DCDC using MP8007 and POE13P50. ](https://github.com/skunkforce/b075_PoE_PD_DCDC_5V_13W_isolated_flyback_MP8007)
+See also **b033** for 3 Watt and **b093** for 7 Watt.
+
+**Status:** [v1.0](https://github.com/skunkforce/b075_PoE_PD_DCDC_5V_13W_isolated_flyback_MP8007/releases/tag/v1.0) [tested](https://github.com/skunkforce/b075_PoE_PD_DCDC_5V_13W_isolated_flyback_MP8007/blob/master/TESTS.md)
+
 ## USB
 
 **b051** USB C connector
