@@ -67,6 +67,10 @@
 ### Switching
 ### Switching step-down
 
+**b114** [12V-76V to 3.3V 3A using BD9G341](https://github.com/skunkforce/b114_dcdc_step_down_12V-76V_in_3.3V_3A_out_BD9G341)
+
+**status** [v1.0](https://github.com/skunkforce/b114_dcdc_step_down_12V-76V_in_3.3V_3A_out_BD9G341/releases/tag/v1.0) [tested](https://github.com/skunkforce/b114_dcdc_step_down_12V-76V_in_3.3V_3A_out_BD9G341/blob/master/TESTS.md)
+
 ### switching step-up
 **b100** battery cell DCDC step up featuring TLV61220
 
