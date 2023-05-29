@@ -105,11 +105,6 @@ See also **b033** for 3 Watt and **b075** for 13 Watt.
 
 **Status:** [ordered](https://github.com/skunkforce/b093_PoE_PD_DCDC_isolated_flyback_MP8007/releases/tag/v1.0rc)
 
-**b075** PoE PD with 13 Watt flyback DCDC using MP8007 and POE13P50. 
-See also **b033** for 3 Watt and **b093** for 7 Watt.
-
-**Status:** [ordered](https://github.com/skunkforce/b075_PoE_PD_DCDC_5V_13W_isolated_flyback_MP8007/releases/tag/v1.0rc)
-
 **b076** PoE PD with flyback DCDC using SI3404
 
 **Status:** Legacy, ordered.
