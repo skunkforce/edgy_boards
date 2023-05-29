@@ -223,10 +223,6 @@ Output current 300ma
 
 **Status:** Legacy, ordered.
 
-**b114** 12V-76V to 3.3V 3A using BD9G341
-
-**status** [ordered](https://github.com/skunkforce/b114_dcdc_step_down_12V-76V_in_3.3V_3A_out_BD9G341/releases/tag/v1.0rc)
-
 **b113** 4.5V - 40V to 3.3V 600ma buck using AP64060
 
 **status** [ordered](https://github.com/skunkforce/b113_4.5v-40v_600ma_buck_converter_AP64060/releases/tag/v1.0rc)
