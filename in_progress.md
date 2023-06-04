@@ -219,10 +219,6 @@ Output current 300ma
 
 ### switching step-up
 
-**b102** battery cell DCDC step up featuring TPS61021A
-
-**status:** [ordered](https://github.com/skunkforce/b102_dcdc_stepup_TPS61021A/releases/tag/v0.1rc).
-
 ### LDO
 **b002** features a TC1017 producing 3.3V output from a 5 volt input. 
 Output current 200ma.
