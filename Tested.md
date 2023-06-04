@@ -86,6 +86,10 @@ See also **b033** for 3 Watt and **b075** for 13 Watt.
 
 **status:** [v0.1](https://github.com/skunkforce/b100_dcdc-step-up-TLV61220/releases/tag/v0.1) [tested](https://github.com/skunkforce/b100_dcdc-step-up-TLV61220/blob/master/TESTS.md)
 
+**b102** [battery cell 1.5A DCDC step up featuring TPS61021A](https://github.com/skunkforce/b102_dcdc_stepup_TPS61021A)
+
+**status:** [v1.0](https://github.com/skunkforce/b102_dcdc_stepup_TPS61021A/releases/tag/v1.0) [tested](https://github.com/skunkforce/b102_dcdc_stepup_TPS61021A/blob/master/TESTS.md).
+
 ### LDO
 
 **b103** features a TLV743P producing 3.3V output from a 5 volt input. 
