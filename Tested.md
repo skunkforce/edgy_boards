@@ -44,6 +44,10 @@
 
 ### PoE
 
+**b027** [PoE++ PD using LT4275](https://github.com/skunkforce/b027_PoE_PD_LT4275)
+
+**status:** [v1.0](https://github.com/skunkforce/b027_PoE_PD_LT4275/releases/tag/v1.0) [tested](https://github.com/skunkforce/b027_PoE_PD_LT4275/blob/master/TESTS.md)
+
 **b052** PoE PD with buck DCDC using MP8007
 
 **Status:** [v1.0](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b052_PoE_PD_with_buck_DCDC_MP8007/blob/master/TESTS.md)
