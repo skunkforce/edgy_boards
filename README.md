@@ -20,11 +20,11 @@ This repository contains the deign requirements which an edgy board must fulfill
 
 # Contributing
 ## workflow
-1. make a new repository from the template repository [edgy_board_template](https://github.com/skunkforce/edgy_board_template) either in this organization (if you are a member) or in your own github. Repos in this organization should follow the naming scheme b081_short_description, there are no naming requirements for external repos. 
-2. make a pull request to this repo with your board name, description and link added to the README.md with status "initial".
-3. develope, test and order your board. Make a tag in your dev branch containing the revision number on your board with 'rc' (release candidate) appended. This should trigger CI to make you all the outputs you need.
+1. make a new repository from the template repository [edgy_board_template](https://github.com/skunkforce/edgy_board_template) either in this organization (if you are a member) or in your own github. Repos in this organization should follow the naming scheme b081_short-description_partnr, there are no naming requirements for external repos. 
+2. make a pull request to this repo with your board name, description and link added to the in_progress.md with status "initial".
+3. develope, test and order your board. Make a tag in your dev branch containing the revision number on your board. This should trigger CI to make you all the outputs you need.
 4. make sure you fulfill the quality checklist
-5. test your board documenting both the tests as well as the results and any useful code etc. needed to reproduce these tests in TEST.md. If your tests fail go to step 3, if they pass make a new release tag without the 'rc'.
+5. test your board documenting both the tests as well as the results and any useful code etc. needed to reproduce these tests in TEST.md. If your tests fail go to step 3.
 6. make a pull request to this repository with the release version number as well as a link to your TEST.md containing a description of tests.
 
 
