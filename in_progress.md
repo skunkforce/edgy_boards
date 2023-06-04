@@ -87,10 +87,6 @@
 
 **status:** [ordered](https://github.com/skunkforce/b012_PoE_rectifier_MB10FTR/releases/tag/v1.0rc)
 
-**b027** PoE++ PD using LT4275
-
-**status:** Legacy, initial.
-
 **b029** PoE++ PSE using LTC4266
 
 **status:** Legacy, initial.
