@@ -18,7 +18,7 @@ card edge connector used to connect edgy boards together.
 Most hardware consists of basic blocks of functionality that have been used before by the same engineer or company. However, in the current state of the art, we still rely on copy-pasting schematic pieces with none of the advantages that libraries and submodules bring. If a hardware bug is discovered, it is usually not trivially traceable which circuits within a company's portfolio are impacted for example. Since edgy boards are organized as a top-level sheet with connectors and edgy related things and a subsheet with the actual circuit it is possible to add the design as a submodule and use the subsheet directly in a larger design.
 
 ## scope of this repository
-This repository contains the deign requirements which an edgy board must fulfill to be part of this project as well as organized list of repositories where edgy boards can be found. The set of defined interfaces with which edgy boards can be connected together can be found [here](https://github.com/skunkforce/things_on_edge).
+This repository contains the deign requirements which an edgy board must fulfill to be part of this project as well as organized list of repositories where edgy boards can be found. The set of defined interfaces with which edgy boards can be connected together can be found [here](https://github.com/skunkforce/put_on_edge).
 
 # Contributing
 ## workflow
