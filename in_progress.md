@@ -138,10 +138,6 @@ See also **b093** for 7 Watt and **b075** for 13 Watt.
 
 **Status:** Legacy, ordered.
 
-**b120** USB to USB-A connector.
-
-**status** [ordered](https://github.com/skunkforce/b120_008_USB_to_USB-A_GSB12121/releases/tag/v1.0rc)
-
 ## 1-wire
 **b043** 1wire to I2C bridge using DS28E18
 
