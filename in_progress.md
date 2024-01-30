@@ -104,11 +104,6 @@ See also **b093** for 7 Watt and **b075** for 13 Watt.
 
 **Status:** Legacy, incapable of large loads, being investigated.
 
-**b115** 4x PoE PSE 13W using TPS23861
-
-**status** [ordered](https://github.com/skunkforce/b115_4x_PoE_PSE_13W_TPS23861/releases/tag/v1.0rc)
-
-
 ## USB
 **b006** 4 port USB hub featuring GL850G.
 
