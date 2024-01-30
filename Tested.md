@@ -28,6 +28,10 @@
 
 **Status:** [v1.0](https://github.com/skunkforce/b086_magjack_1000BASE-T_PoE-_A70-112-331N126/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b086_magjack_1000BASE-T_PoE-_A70-112-331N126/blob/master/TESTS.md)
 
+**b135** 100BASE-T PoE capable magjack featuring LPJ4265BDNL.
+
+**Status:** [v1.0](https://github.com/skunkforce/b135_019_to_magjack_100BASE-T_PoE_LPJ4265BDNL/releases/tag/v1.0) [tested](https://github.com/skunkforce/b135_019_to_magjack_100BASE-T_PoE_LPJ4265BDNL/blob/master/TESTS.md)
+
 ### Magnetics
 
 **b099** 100BASE-T magnetics featuring 749013011A
