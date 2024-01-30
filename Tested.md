@@ -69,6 +69,10 @@ See also **b033** for 3 Watt and **b075** for 13 Watt.
 
 **Status:** [v1.0](https://github.com/skunkforce/b093_PoE_PD_DCDC_isolated_flyback_MP8007/releases/tag/v1.0) [tested](https://github.com/skunkforce/b093_PoE_PD_DCDC_isolated_flyback_MP8007/blob/master/TESTS.md)
 
+**b115** 4x PoE PSE 13W using TPS23861
+
+**status** [v1.0](https://github.com/skunkforce/b115_4x_PoE_PSE_13W_TPS23861/releases/tag/v1.0) [tested](https://github.com/skunkforce/b115_4x_PoE_PSE_13W_TPS23861/blob/master/TESTS.md)
+
 ## USB
 
 **b051** USB C connector
