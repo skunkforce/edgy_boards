@@ -34,6 +34,9 @@
 
 **status** [v1.0](https://github.com/skunkforce/b099_100BASE-T_magnetics_749013011A/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b099_100BASE-T_magnetics_749013011A/blob/master/TESTS.md)
 
+**b127** 1000BASE-T passive PHY to PHY. Use if you want to connect two phys together on the same PCB without magnetics or connectors.
+**status** [v1.0](https://github.com/skunkforce/b127_009_to_009_phy_to_phy/releases/tag/v1.0) [tested](https://github.com/skunkforce/b127_009_to_009_phy_to_phy/blob/master/TESTS.md)
+
 ### Phys
 
 ### Bridges
