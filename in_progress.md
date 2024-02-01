@@ -133,6 +133,10 @@ See also **b093** for 7 Watt and **b075** for 13 Watt.
 
 **Status:** Legacy, ordered.
 
+**b139** USB to UART CP2102
+
+**Status** [ordered](https://github.com/skunkforce/b139_usb_to_serial_converter_CP2102)
+
 ## 1-wire
 **b043** 1wire to I2C bridge using DS28E18
 
