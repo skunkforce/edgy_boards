@@ -10,6 +10,10 @@
 
 **status** [v1.0](https://github.com/skunkforce/b118_5_port_100BASE-T_switch_RTL8305N/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b118_5_port_100BASE-T_switch_RTL8305N/blob/master/TESTS.md)
 
+**b149** 5 Port gigabit switch RTL8367S
+
+**status** [v1.0](https://github.com/skunkforce/b149_5_port_gigabit_switch_RTL8367S/releases/tag/v1.0) [tested](https://github.com/skunkforce/b149_5_port_gigabit_switch_RTL8367S/blob/master/TESTS.md)
+
 ### Connectors
 
 **b004** 100BASE-T connector featuring a Würth 7499211121A RJ45 connector with builtin magnetics and PoE rectifier.
