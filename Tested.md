@@ -83,6 +83,10 @@ See also **b033** for 3 Watt and **b075** for 13 Watt.
 
 **Status:** [v1.0](https://github.com/skunkforce/b051_008_to_USB_C_USB4105-GF-A/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b051_008_to_USB_C_USB4105-GF-A/blob/master/TESTS.md)
 
+**b142** USB C Connector waterproof
+
+**Status:** [v1.0](https://github.com/skunkforce/b142_USBC-to-008_C3020043/releases/tag/v1.0) [tested](https://github.com/skunkforce/b142_USBC-to-008_C3020043/blob/master/TESTS.md)
+
 **b120** USB to USB-A connector.
 
 **status** [v1.0](https://github.com/skunkforce/b120_008_USB_to_USB-A_GSB12121/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b120_008_USB_to_USB-A_GSB12121/blob/master/TESTS.md)
