@@ -126,7 +126,7 @@ Output current 300ma.
 
 **b174** featured a XC6206 producing 3.3V from 5V up to 300mA in a SOT23 package.
 
-**status:** [v1.0](https://github.com/skunkforce/b174_3.3v_300mA_SOT-23_LDO_XC6206P332MR/releases/tag/v1.0rc) [tested](https://github.com/skunkforce/b174_3.3v_300mA_SOT-23_LDO_XC6206P332MR/blob/master/TESTS.md)
+**status:** [v1.0](https://github.com/skunkforce/b174_3.3v_300mA_SOT-23_LDO_XC6206P332MR/releases/tag/v1.0) [tested](https://github.com/skunkforce/b174_3.3v_300mA_SOT-23_LDO_XC6206P332MR/blob/master/TESTS.md)
 
 ## Microcontroller
 
